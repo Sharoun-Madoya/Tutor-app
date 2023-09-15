@@ -1,3 +1,5 @@
+import React from 'react';
+
 function TutorialModule(){
     return(
         <div>
@@ -7,3 +9,4 @@ function TutorialModule(){
     )
 }
 
+export default TutorialModule;

@@ -1,3 +1,5 @@
+import React from 'react';
+
 function DomainModule(){
     return(
         <div className="container">
@@ -5,3 +7,5 @@ function DomainModule(){
         </div>
     )
 }
+
+export default DomainModule;
