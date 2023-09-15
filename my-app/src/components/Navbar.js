@@ -1,7 +1,6 @@
 import React from 'react';
-import DomainModule from './Domain';
-import StudentModule from './sudent';
-import TutorialModule from './tutorial';
+import { Link } from "react-router-dom";
+import './navbar.css';
 
 function Navbar (){
     return(
