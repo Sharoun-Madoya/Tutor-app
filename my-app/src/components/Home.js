@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
+import './home.css';
 
 function Home(){
     const [prompt, setPrompt] = useState('');
@@ -19,8 +20,8 @@ function Home(){
         prompt },
       {
         headers: {
-          Authorization: 'Bearer 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', // Replace with your actual API key
-        },
+          Authorization: 'Bearer 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', 
+                },
       }
     )
     .then((res) => {

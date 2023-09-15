@@ -4,7 +4,7 @@ import './navbar.css';
 
 function Navbar (){
     return(
-        <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
+        <nav className="navbar">
         <Link exact to="/">Home</Link>
         <Link to= "/student">Student Module</Link>
         <Link to= "/domain">Domain Module</Link>
