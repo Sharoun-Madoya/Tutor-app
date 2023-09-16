@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 app.use(cors())
 
 // setting up the ChartGpt endpoint 
-const apiKey =  " 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"
+const apiKey =  " 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"
 const configuration = new Configuration({
     apiKey: apiKey
 });
@@ -34,3 +34,7 @@ const configuration = new Configuration({
             console.log(`Server listening on port ${port}`)
             console.log(`https://api.openai.com/v1:${port}`);
         })
+
+
+
+        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

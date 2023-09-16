@@ -20,7 +20,7 @@ function Home(){
         prompt },
       {
         headers: {
-          Authorization: 'Bearer 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', 
+          Authorization: 'Bearer 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', 
                 },
       }
     )
